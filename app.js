@@ -28,6 +28,7 @@ const User=new mongoose.model("User",userSchema);
 
 app.get("/",function(req,res){
   res.render("home");
+  console.log("hi");
 });
 
 app.get("/login",function(req,res){
